@@ -1,12 +1,12 @@
 ## CREATE STUDENT TABLE
-```
+````
 CREATE TABLE student7 (
     student_id NUMBER(5) PRIMARY KEY,
     student_name VARCHAR2(50),
     course VARCHAR2(30),
     marks NUMBER(5,2)
 );
-````
+```
 ## INSERT INTO STUDENT TABLE
 ```
 INSERT INTO student7 VALUES (101, 'Ravi', 'CSE', 85);
